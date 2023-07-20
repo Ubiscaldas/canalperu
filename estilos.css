@@ -1,0 +1,159 @@
+/*  */#imagen {width:100%;height:80px;}
+
+#audio {
+  width: 100%;
+  background-color:#6BAD68;
+}
+
+
+#clases1 table {
+display: inline;
+}
+#clases1 table tr td{
+width: 350px;
+}
+#clases1 table tr td a{
+text-decoration: none;
+}
+#clases1 table tr td a center{
+ padding: 8px;
+}
+
+
+.materiales table tr td a{
+text-decoration: none;
+  }
+.materiales table tr td a center{
+ padding: 8px;
+  }
+
+
+#indice ul li a{
+text-decoration: none;
+}
+#indice ul li{
+padding-top: 15px;
+}
+
+
+#descarga1 {
+  display: flex;
+ flex-direction: column;
+ padding: 0px;
+ }
+#descarga1 a {
+text-decoration: none;
+margin-top: 5px;
+padding: 7px;
+background-color: #6BAD68;
+ }
+
+
+footer {
+width: 100%;
+background-color: #6BAD68;
+font-size: 10px;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   margin: auto;
+  }
+.footer1 {
+  display: flex;
+ flex-direction: column;
+ padding: 30px;
+ }
+.footer1 a{
+text-decoration: none;
+font-size: 15px;
+padding-top: 15px;
+ }
+ .footer1 a :hover{
+background-color:#92DB8F; /* Color de fondo sobre el boton */
+cursor: pointer; /* cambiar el aspecto del puntero */
+}
+
+
+
+
+
+
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:5px; font-family: 'Open Sans', sans-serif;}
+section{width:100%; max-width:95%; margin:0px auto; display:table; position:relative;}
+
+
+header{width:100%; display:table; background-color:#6BAD68; margin-bottom:20px;}
+
+#logo{float:left; font-size:24px; text-transform:uppercase; color:#002e5b; font-weight:600; padding:20px 0px;}
+nav{width:auto; float:right;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#002e5b; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#6BAD68; color:#fde428; transition: all 0.5spadding-top:60px ease 0s;}
+
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#002e5b; margin-bottom:4px;}
+
+/*aquí desaparece lineas*/
+input[type=checkbox], label{display:none;}
+
+
+
+/* menu desplegable */ 
+#menu ul ul { display:none; position:absolute; background:#6BAD68; padding:0; z-index:99;}
+ /* items del menu desplegable */ 
+#menu ul ul li { float:none; width:auto;}
+ /* enlaces de los items del menu desplegable */ #menu ul ul a { line-height:120%; padding:10px 15px; }
+ /* items del menu desplegable al pasar el ratón */ #menu ul li:hover > ul { display:block; }
+
+
+@media only screen and (max-width: 1440px) {
+section{max-width:95%;}
+
+
+}
+
+@media only screen and (max-width: 980px) {
+#menu ul ul {position:absolute; right:130px;top:25px;background:#002e5b;width:80%;}
+nav ul li a:hover{background-color:#002e5b; color:#fde428; transition: all 0.5spadding-top:60px ease 0s;}
+
+header{padding:10px 0px;}
+#logo{padding:0px;}
+input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+input[type=checkbox]:fous{background:none;}
+
+/*aquí menú a la derecha*/
+label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+
+input[type=checkbox]:checked ~ nav {display:block;}
+
+/* aquí esta la posi ion del menú a la detech*/
+nav{display:none; position:absolute; right:0px; top:45px; background-color:#002e5b; padding:0px; z-index:99;}
+
+nav ul{width:auto;}
+nav ul li{float:none; padding:0px; width:100%; display:table;}
+nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+
+
+@media only screen and (max-width: 980px) {
+.content{width:90%;}
+#imagen {width:100%;height:55px;} 
+}
+
+@media only screen and (max-width: 568px) {
+#imagen {width:100%;height:40px;} 
+}
+
+@media only screen and (max-width: 480px) {
+section {max-width: 90%;}
+}
+
+@media only screen and (max-width: 360px) {
+
+label{padding:5px 0px;}
+#logo{font-size: 20px;   }
+nav{top:47px;} 
