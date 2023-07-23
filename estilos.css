@@ -1,0 +1,9 @@
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body { background-color: pink}
+h1 {text-align: center; color: blue;}
+h3 {text-align: center; color: blue; }
+#canales {background-color: red; display: flex; flex-wrap: wrap; justify-content: center;padding: 20px;}
+#canales a {border-style: solid; border-color: pink; margin: 30px;}
+#canales a img { height: 250px; height: 250px;}
+#canales a p {font-size: 20px; color:white; text-align: center;}    
+p {font-size: 20px; color:blue; text-align: center; }
