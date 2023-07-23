@@ -1,0 +1,11 @@
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body { background-color: pink; min-height: 100vh;position: relative; }
+h1 {text-align: center; color: blue;}
+h3 {text-align: center; color: blue; }
+#canales {background-color: red; display: flex; flex-wrap: wrap; justify-content: center;padding: 20px;}
+#canales a {border-style: solid; border-color: pink; border-width: 10px; margin: 30px;}
+#canales a img { height: 250px; width: 250px;}
+#canales a p {font-size: 20px; color:white; text-align: center;}    
+p {font-size: 20px; color:blue; text-align: center;}
+footer {text-align: center; height: 50px; width: 100%; position: absolute;
+    bottom: 0px;}
