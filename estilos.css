@@ -2,7 +2,7 @@
 body { background-color: orange; min-height: 100vh;position: relative; }
 h1 {text-align: center; color: blue;}
 h3 {text-align: center; color: blue; }
-#canales {background-color: red; display: flex; flex-wrap: wrap; justify-content: center;padding: 20px;}
+#canales {background-color: orange; display: flex; flex-wrap: wrap; justify-content: center;padding: 20px;}
 #canales a {border-style: solid; border-color: pink; border-width: 10px; margin: 30px;}
 #canales a img { height: 250px; width: 250px;}
 #canales a p {font-size: 20px; color:white; text-align: center;}    
